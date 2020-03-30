@@ -1,0 +1,4 @@
+git-test/Dockerfile
+docker-compose.yml
+git-test/package-lock.json
+git-test/node_modules/

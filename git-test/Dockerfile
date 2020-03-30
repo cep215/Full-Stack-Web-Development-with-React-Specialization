@@ -1,6 +1,6 @@
 FROM node:latest
 
-WORKDIR /Users/cep215/Desktop/Full-Stack-Web-Development-with-React-Specialization/git-test
+WORKDIR /git-test
 
-COPY package.json /
+COPY ./git-test/package.json /git-test/package.json
 RUN npm install

@@ -1,0 +1,146 @@
+@lt-gray: #ddd;
+@lt-gray-hover: rgb(180, 179, 179);
+@background-dark: #25533f;
+@background-light: #429d81;
+@background-pale: #e3f3ef;
+@background-dark-hover: #19382b;
+
+// Height variables
+@carousel-item-height: 300px;
+
+.zero-margin (@pad-up-dn: 0px, @pad-left-right: 0px) {
+	margin:0px auto;
+	padding: @pad-up-dn @pad-left-right;
+}
+
+.row-header {
+    .zero-margin();
+}
+
+.row-content {
+    .zero-margin();
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.footer {
+    background-color:@background-pale;
+    .zero-margin(20px, 0px);
+}
+
+.jumbotron {
+    .zero-margin(70px, 30px);
+    background: @background-light;
+    color: floralwhite;
+}
+
+.address {
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+}
+
+body {
+
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+
+.navbar-dark {
+    background-color: @background-dark;
+}
+
+.card-header {
+    background-color: @background-dark;
+}
+
+.btn-reserve {
+    background-color:@background-dark;
+    border-color: @background-dark;
+    color: floralwhite;
+    
+}
+
+.btn-reserve:hover {
+    background-color: @background-dark-hover;
+    border-color: @background-dark-hover;
+    color: floralwhite;
+    
+}
+
+.btn-nonsmoking {
+    background-color: green;
+    color: floralwhite;
+    
+}
+
+
+
+.btn-nonsmoking:hover {
+    background-color: darkgreen;
+    color: floralwhite;
+    
+}
+
+.btn-smoking {
+    background-color: red;
+    color: floralwhite;
+    
+}
+
+
+
+.btn-smoking:hover {
+    background-color: darkred;
+    color: floralwhite;
+    
+}
+
+
+.tab-content {
+    border-left: 1px solid @lt-gray;
+    border-right: 1px solid @lt-gray;
+    border-bottom: 1px solid @lt-gray;
+    padding: 10px;
+}
+
+.carousel {
+    background:@background-light;
+}
+
+.carousel-item {
+  height: 300px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.modal-header {
+    background-color: @background-dark;
+    color: floralwhite;
+}
+
+.modal-body {
+    background-color: @background-light;
+    color: floralwhite;
+}
+
+.close {
+    color: floralwhite;
+}
+
+.close:hover {
+    color: floralwhite;
+}
+
